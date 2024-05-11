@@ -15,6 +15,20 @@
     padding: 0;
 }
 
+img{
+    /* delete this class after and use a proper WIP sign rather than the image there*/
+    margin-top: 5vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 3px solid var(--highlight-primary);
+}
+
 header{
     display: flex;
     font-family: 'Rubik', sans-serif;
@@ -25,7 +39,6 @@ header{
 }
 
 .nav-list{
-    text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -42,11 +55,16 @@ body{
     color: var(--primary-color);
 }
 
-.index-main{
+.generic-main{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 5vh;
+}
+
+.about-paragraph{
+    width: 50%;
     margin-top: 5vh;
 }
 

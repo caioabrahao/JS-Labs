@@ -97,10 +97,23 @@ function seeResults(){
     for(let i = 0; i < questions.length; i++){
         let answerText = document.createElement("p");
         let questionListNumber = i + 1;
-        answerText.innerHTML = questionListNumber.toString() + ". " + questions[i].question + " = " + "<span class='text-highlight'>" + questions[i].answer  + "</span>";
+        let yesOrNo = "none";
+
+        if(questions[i].answer === true){
+            yesOrNo = "Yes";
+        }else{
+            yesOrNo = "No";
+        }
+
+        answerText.innerHTML = questionListNumber.toString() + ". " + questions[i].question + " = " + "<span class='text-highlight'>" + yesOrNo  + "</span>";
         document.getElementById("quiz-text-box").appendChild(answerText);
     }
 
-    let ResultsButton = document.getElementById("resultsButton")
+    let ResultsButton = document.getElementById("resultsButton");
     ResultsButton.textContent = "Restart Quiz";
+    ResultsButton.addEventListener("click", restartQuiz);
+}
+
+function restartQuiz(){
+    window.location = window.location;
 }
