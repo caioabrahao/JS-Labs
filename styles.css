@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --background-color: #121212;
+    --background-highlight: #2C2C29;
+    --primary-color: #FFFFFF;
+    --highlight-primary: #BB86FC;
+    --highlight-primary-variant: #3700B3;
+    --highlight-secondary: #03DAC6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--background-highlight);
+    color: #a8a8a8;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.index-main{
+    margin: 5vh;
+}
+
+.exp-1-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: flex-start;
+}
+
+.text-box{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    background-color: var(--background-highlight);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px 15px 25px;
+    background-color: var(--highlight-primary);
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button:hover{
+    background-color: var(--highlight-secondary);
+    border-radius: 90px;
+}
+
+.heading1{
+    font-family: "Freeman", sans-serif;
+    font-size: 40px;
+}
+
+.heading2{
+    font-family: "Freeman", sans-serif;
+    font-size: 30px;
+}
+
+.paragraph{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
