@@ -32,8 +32,10 @@ function experimentOneChangeText (){
 let quizIndex = 0;
 const questions = [
     {question: "Is it raining today?", answer: false},
-    {question: "Are you a big fan of hot dogs", answer: false},
-    {question: "67 is greater than 69", answer: false}
+    {question: "Are you a big fan of hot dogs?", answer: false},
+    {question: "Is 67 your favourite number?", answer: false},
+    {question: "Are you having a good day?",answer: false},
+    {question: "Have you uninstalled League of Legends yet?",answer: false},
 ];
 
 function quizDisplayUpdate (){
@@ -83,6 +85,7 @@ function endQuiz(){
     newButton.addEventListener("click", seeResults);
     newButton.type = "button";
     newButton.className = "button";
+    newButton.id = "resultsButton"
 
     document.getElementById("quiz-buttons").appendChild(newButton);
 }
@@ -97,4 +100,7 @@ function seeResults(){
         answerText.innerHTML = questionListNumber.toString() + ". " + questions[i].question + " = " + "<span class='text-highlight'>" + questions[i].answer  + "</span>";
         document.getElementById("quiz-text-box").appendChild(answerText);
     }
+
+    let ResultsButton = document.getElementById("resultsButton")
+    ResultsButton.textContent = "Restart Quiz";
 }
