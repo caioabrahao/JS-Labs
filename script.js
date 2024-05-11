@@ -12,12 +12,35 @@ function experimentOneChangeText (){
                                 "Ok, this is the end, for real this time.",
                                 "You reached the end. Move on to the next Experiment.",
                                 "Just scroll down to the 'Experiment 2' section.",
-                                "please stop..."]
+                                "please stop...",
+                                "Huh... Fine...",
+                                "Let's count! Bare with me!"]
 
-    text.textContent = textMessages[messageIndex];
-
-    if(messageIndex < 9){
+    if(messageIndex < 13){
+        text.textContent = textMessages[messageIndex];
         messageIndex++;
     }
 
+    if(messageIndex >= 13){
+        let timesPressed = messageIndex.toString();
+        text.innerHTML = "You clicked this stupid button <span class='text-highlight'>" + timesPressed + " </span>times!";
+        messageIndex++;
+    }
+
+}
+
+function quizDisplayUpdate (){
+
+}
+
+function answerYes(){
+
+}
+
+function answerNo(){
+
+}
+
+function startQuiz(){
+    document.getElementById("start-quiz-button").remove();
 }

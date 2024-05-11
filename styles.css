@@ -32,18 +32,22 @@ header{
     gap: 80px;
 }
 
-body{
-    background-color: var(--background-color);
-    color: var(--primary-color);
-}
-
 hr{
     margin: 40px 20px 20px 20px;
     border-color: var(--primary-color);
 }
 
+body{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
 .index-main{
-    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vh;
 }
 
 .experiment-section{
@@ -52,6 +56,11 @@ hr{
     flex-direction: column;
     gap: 20px;
     justify-items: flex-start;
+}
+
+.text-highlight{
+    color: var(--highlight-primary);
+    font-size: 120%;
 }
 
 .text-box{
@@ -78,6 +87,12 @@ hr{
 .button:hover{
     background-color: var(--highlight-secondary);
     border-radius: 90px;
+}
+
+.quiz-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .heading1{

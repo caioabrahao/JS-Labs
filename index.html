@@ -20,20 +20,29 @@
 
     <main class="index-main">
         <h1 class="heading1">🧪 JavaScript Experiment Lab</h1>
-
-        <section class="experiment-section">
-            <h2 class="heading2">👨‍🔬 Experiment I:</h2>
-            <p class="paragraph"> Let's start with a simple one! Click on the button to change the text!</p>
-            <div class="text-box">
-                <p id="changeable-text-exp1">Change Me! Pretty Please.</p>
-            </div>
-            <button type="button" class="button" onclick="experimentOneChangeText()">Change Text!</button>
-        </section>
-        <hr>
-        <section class="experiment-section">
-            <h2 class="heading2">👨‍🔬 Experiment II:</h2>
-            <p class="paragraph"> Ok, lets add some logic to the mix. The following is a small quiz.
-            Simply answer them with 'Yes' or 'No'.</p>
+        <section class="index-content">
+            <section class="experiment-section">
+                <h2 class="heading2">👨‍🔬 <span class="text-highlight">Experiment I:</span> Change-A-Text!</h2>
+                <p class="paragraph"> Let's start with a simple one! Click on the button to change the text!</p>
+                <div class="text-box">
+                    <p id="changeable-text-exp1">Change Me! Pretty Please.</p>
+                </div>
+                <button type="button" class="button" onclick="experimentOneChangeText()">Change Text!</button>
+            </section>
+            <hr>
+            <section class="experiment-section">
+                <h2 class="heading2">👨‍🔬 <span class="text-highlight">Experiment II:</span> Non Invasive Quiz.</h2>
+                <p class="paragraph"> Ok, lets add some logic to the mix. The following is a small quiz.
+                Simply answer the questions with 'Yes' or 'No'.</p>
+                <div class="text-box">
+                    <p id="quiz-display">Click in any of the Buttons to start!</p>
+                </div>
+                <div class="quiz-buttons">
+                    <button type="button" class="button" onclick="answerYes()">Yes</button>
+                    <button type="button" class="button" onclick="startQuiz()" id="start-quiz-button">Start Quiz</button>
+                    <button type="button" class="button" onclick="answerNo()">No</button>
+                </div>
+            </section>
         </section>
     </main>
 
