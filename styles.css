@@ -55,6 +55,11 @@ body{
     color: var(--primary-color);
 }
 
+.index-content{
+    width: 60%;
+    margin-bottom: 10vh;
+}
+
 .generic-main{
     display: flex;
     flex-direction: column;
@@ -79,6 +84,12 @@ body{
 .text-highlight{
     color: var(--highlight-primary);
     font-size: 120%;
+}
+
+.flex-box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .text-box{
@@ -113,6 +124,23 @@ body{
     gap: 10px;
 }
 
+.textInput{
+    background-color: var(--background-highlight);
+    color: var(--primary-color);
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 90px;
+}
+
+.inputLabel{
+    color: var(--primary-color);
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    width: fit-content;
+}
+
 .heading1{
     font-family: "Freeman", sans-serif;
     font-size: 40px;
@@ -126,4 +154,13 @@ body{
 .paragraph{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: var(--background-highlight);
+    background-color: var(--background-color);
+    border-top: solid 3px var(--background-highlight);
+    padding: 5vh;
 }

@@ -7,6 +7,7 @@
     <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="script.js"></script>
+    <script src="./scripts/experiment3.js"></script>
 </head>
 <body>
     <header>
@@ -53,11 +54,29 @@
             <hr>
 
             <section class="experiment-section">
-                <h2 class="heading2">👨‍🔬 <span class="text-highlight">Experiment III:</span> Not really sure yet...</h2>
+                <h2 class="heading2">📚 <span class="text-highlight">Experiment III:</span> Who's the Writer Now?</h2>
+
+                <p class="paragraph"> I get it, you want something more customizable, isn't it? I gotchu! Write anything you want
+                in the text box below and press enter.</p>
+
+                <div class="text-box flex-box-row">
+                    <p class="text-highlight"> > &nbsp</p> <p id="textInputDisplay"> Write something below!</p>
+                </div>
+
+                <label for="textField" class="inputLabel">
+                    <input class="textInput" type="text" name="myText" placeholder="Very Creative Text" id="textField"
+                           onclick="updateTextByInput()">
+                </label>
             </section>
+
+            <hr>
+
+
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <p class="paragraph">Developed by <a href="https://github.com/caioabrahao">Caio Abrahão</a></p>
+    </footer>
 </body>
 </html>
