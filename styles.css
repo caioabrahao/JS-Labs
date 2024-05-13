@@ -35,13 +35,20 @@ header{
     background-color: var(--background-highlight);
     color: #a8a8a8;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.lang-selector{
+    display: flex;
+    gap: 20px;
+    offset: 20px;
 }
 
 .nav-list{
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 80px;
 }
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratório JavaScript</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../script.js"></script>
+    <script src="../scripts/experiment3.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="../about.html">Sobre</a></li>
+            <li><a href="../learn.html">Aprender</a></li>
+        </ul>
+    </nav>
+
+    <div class="lang-selector">
+        <p><a href="index.html">PT-BR</a></p>
+        <p><a href="../index.html"> EN-US</a></p>
+    </div>
+</header>
+
+<main class="generic-main">
+    <h1 class="heading1">🧪 Laboratório de JavaScript</h1>
+    <section class="index-content">
+        <section class="experiment-section">
+            <h2 class="heading2">👨‍🔬 <span class="text-highlight">Experimento I:</span> Altere um Texto!</h2>
+            <p class="paragraph">Vamos começar com algo simples! Clique no botão para mudar o texto!
+                Experimente o quanto quiser, ele AMA isso!</p>
+            <div class="text-box">
+                <p id="changeable-text-exp1">Mude-me! Por favor.</p>
+            </div>
+            <button type="button" class="button" onclick="experimentOneChangeText()">Mudar Texto!</button>
+        </section>
+
+        <hr>
+
+        <section class="experiment-section">
+            <h2 class="heading2">👨‍🔬 <span class="text-highlight">Experimento II:</span> Perguntas e Respostas.</h2>
+            <p class="paragraph">Ok, vamos adicionar um pouco de lógica à mistura. O seguinte é um pequeno quiz.
+                Simplesmente responda às perguntas com 'Sim' ou 'Não'.</p>
+
+            <div class="text-box" id="quiz-text-box">
+                <p id="quiz-display">Clique abaixo para começar!</p>
+            </div>
+
+            <div class="quiz-buttons" id="quiz-buttons">
+                <button disabled type="button" class="button" onclick="answerYes()" id="yes-button">Sim</button>
+                <button type="button" class="button" onclick="startQuiz()" id="start-quiz-button">Começar Quiz</button>
+                <button disabled type="button" class="button" onclick="answerNo()" id="no-button">Não</button>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="experiment-section">
+            <h2 class="heading2">📚 <span class="text-highlight">Experimento III:</span> Quem é o Escritor Agora?</h2>
+
+            <p class="paragraph">Entendi, você quer algo mais customizável, não é? Xá comigo! Escreva o que quiser
+                na caixa de texto abaixo e pressione enter.</p>
+
+            <div class="text-box flex-box-row">
+                <p class="text-highlight"> > &nbsp</p> <p id="textInputDisplay"> Escreva algo abaixo!</p>
+            </div>
+
+            <label for="textField" class="inputLabel">
+                <input class="textInput" type="text" name="myText" placeholder="Text Super Criativo" id="textField"
+                       onclick="updateTextByInput()">
+            </label>
+        </section>
+
+        <hr>
+
+
+    </section>
+</main>
+
+<footer>
+    <p class="paragraph">Desenvolvido por <a href="https://github.com/caioabrahao">Caio Abrahão</a></p>
+</footer>
+</body>
+</html>
