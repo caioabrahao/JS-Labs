@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccb13d6d-12f0-49dd-838f-be32af2fc80e" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/pt-br/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pt-br/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/experiment-1/experiment-1-en-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/experiment-1/experiment-1-pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/experiment-2/experiment-2-en-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/experiment-2/experiment-2-pt-br.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/en-us/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn.html" beforeDir="false" afterPath="$PROJECT_DIR$/en-us/learn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt-br/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pt-br/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/experiment3.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/experiment-3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -69,6 +78,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\projetos-web\JS-Labs\pt-br" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\projetos-web\JS-Labs\scripts\experiment-1" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\styles" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\en-us" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -90,7 +104,7 @@
       <workItem from="1715526316659" duration="5499000" />
       <workItem from="1715536293625" duration="4878000" />
       <workItem from="1715541782701" duration="433000" />
-      <workItem from="1715621316439" duration="2630000" />
+      <workItem from="1715621316439" duration="7185000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

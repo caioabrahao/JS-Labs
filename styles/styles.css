@@ -75,6 +75,10 @@ body{
     margin-top: 5vh;
 }
 
+.about-main{
+    height: 75vh;
+}
+
 .about-paragraph{
     width: 50%;
     margin-top: 5vh;
@@ -161,6 +165,13 @@ body{
 .paragraph{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
+}
+
+.scroll-up-button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: var(--background-highlight);
+    margin-bottom: 20px;
 }
 
 footer{
