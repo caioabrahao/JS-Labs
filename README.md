@@ -11,7 +11,7 @@
 <h2>🖱 Try it yourself!</h2>
 
 * Github Pages: https://caioabrahao.github.io/JS-Labs/
-* Vercel: https://js-labs-mee92a0rv-caioabrahaos-projects.vercel.app/
+* Vercel: https://js-labs-pi.vercel.app/
 
 
 <h2>💻 Built with</h2>
