@@ -62,6 +62,16 @@ body{
     color: var(--primary-color);
 }
 
+.newHomePage-button{
+    font-family: 'Rubik', sans-serif;
+    padding: 10px 20px 10px 20px;
+    margin: 1rem;
+    font-size: 20px;
+    background-color: var(--highlight-secondary);
+    color: var(--background-color);
+    border-radius: 90px;
+}
+
 .index-content{
     width: 60%;
     margin-bottom: 10vh;
