@@ -1,4 +1,4 @@
-<h1 align="center" id="title">JavaScript Experiment Labs</h1>
+<h1 align="center" id="title">🧪 JavaScript Experiment Labs</h1>
 
 <p align="center"><img src="https://socialify.git.ci/caioabrahao/JS-Labs/image?description=1&amp;font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
@@ -7,6 +7,11 @@
 
 <p align="center"><img src="https://img.shields.io/github/commit-activity/t/caioabrahao/JS-Labs" alt="shields">      <img src="https://img.shields.io/github/created-at/caioabrahao/JS-Labs" alt="shields">      <img src="https://img.shields.io/github/last-commit/caioabrahao/JS-Labs" alt="shields"></p>
 
+<h2>🌏 Language Support</h2>
+<p>Currently, this project supports 2 languages, those being:</p>
+
+* 🇧🇷 Brazilian Portuguese (PT-BR)
+* 🇺🇸 English (EN-US)
 
 <h2>🖱 Try it yourself!</h2>
 

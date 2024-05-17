@@ -1,3 +1,4 @@
+
 let quizIndex = 0;
 const questions = [
     {question: "Is it raining today?", answer: false},
