@@ -18,6 +18,7 @@
 
 body{
     background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 header{
@@ -66,6 +67,10 @@ img{
     display: flex;
     gap: 20px;
     offset: 20px;
+}
+
+.lang-selector:active{
+    color: red;
 }
 
 .nav-list{
@@ -200,28 +205,72 @@ footer{
     font-size: 1.2rem;
 }
 
+.exp-lab-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.exp-lab-main h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.exp-lab-main p{
+    font-size: 1.5rem;
+}
+
 .experiment-grid{
     display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
     padding: 5rem;
-    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.experiment-image{
+    display: inline-block;
+    object-fit: contain;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-8ea7015d02a28a085369b549785e63bb-lq");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90px 50px 90px 50px;
+    aspect-ratio: 1 / 1;
+
+    transition: filter 0.1s ease-in-out;
 }
 
 .experiment-card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: var(--primary-color);
-    width: 12rem;
+    width: 30rem;
     height: 16rem;
     background-color: var(--background-highlight);
     border-radius: 25px;
     padding: 2rem;
+    gap: 1rem;
 
 }
 
-.experiment-card img{
-    object-fit: scale-down;
+.experiment-link{
+    transition: filter 0.1s ease-in-out;
+}
+
+.experiment-link:hover{
+    border: none;
+    filter: drop-shadow(0 0 8px var(--highlight-secondary));
+
+    .experiment-image{
+        filter: drop-shadow(-5px 5px 5px var(--highlight-secondary))
+    }
 }
 
 .experiment-card h2{
-    font-size: 1.2rem;
+    font-size: 2rem;
+}
+
+.experiment-card p{
+    font-size: 1rem;
 }

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccb13d6d-12f0-49dd-838f-be32af2fc80e" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/experiment-hub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment-hub.html" beforeDir="false" afterPath="$PROJECT_DIR$/experiment-hub.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/experiment-2/experiment-2-en-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/experiment-2/experiment-2-en-us.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles-2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/caioabrahao/JS-Labs.git&quot;,
-    &quot;accountId&quot;: &quot;efa6954a-1d84-4ccf-8aac-0d8e3c4e84a5&quot;
+    &quot;accountId&quot;: &quot;73564950-8c44-47fe-b22f-72aecc081da3&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,27 +48,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index-2.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/projetos-web/JS-Labs/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\projetos-web\JS-Labs\images" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\pt-br" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\projetos-web\JS-Labs" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\scripts\experiment-1" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\styles" />
+      <recent name="D:\Desktop\projetos-web\JS-Labs\en-us" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
       </set>
     </attachedChunks>
   </component>
@@ -86,11 +97,11 @@
       <workItem from="1715456832105" duration="625000" />
       <workItem from="1715526316659" duration="5499000" />
       <workItem from="1715536293625" duration="4878000" />
-      <workItem from="1715541782701" duration="601000" />
-      <workItem from="1715690711365" duration="897000" />
-      <workItem from="1715775157918" duration="12000" />
-      <workItem from="1715806077411" duration="63000" />
-      <workItem from="1715951058120" duration="4316000" />
+      <workItem from="1715541782701" duration="433000" />
+      <workItem from="1715621316439" duration="11471000" />
+      <workItem from="1715708326745" duration="247000" />
+      <workItem from="1715876574106" duration="21519000" />
+      <workItem from="1715967437289" duration="10511000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
